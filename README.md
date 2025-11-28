@@ -28,7 +28,7 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
-2. Install dependencies (create `requirements.txt` as needed):
+2. Install dependencies :
 
 ```powershell
 pip install -r requirements.txt
@@ -65,4 +65,5 @@ python robustness.py
 ```
 
 Outputs will be written to `results/walkforward_summary.csv`, and PNG plots.
+
 
